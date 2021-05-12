@@ -1,16 +1,15 @@
-import React from 'react'
+import React from "react";
 import styled from "styled-components";
-import ImageSlider from './ImageSlider'
+import ImageSlider from "./ImageSlider";
 function Home() {
-    return (
-        <Container>
-            Hello Home
-            <ImageSlider/>
-        </Container>
-    )
+  return (
+    <Container>
+      <ImageSlider />
+    </Container>
+  );
 }
 
-export default Home
+export default Home;
 const Container = styled.div`
   position: relative;
   min-height: calc(100vh - 250px);
