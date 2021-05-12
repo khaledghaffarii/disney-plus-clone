@@ -29,12 +29,10 @@ function Header() {
           <img src="/images/series-icon.svg" />
           <span>SERIES</span>
         </a>
-        <User>
         
-            <img src="https://avatars.githubusercontent.com/u/75438046?s=400&u=4ad31515204e1d0d63e7940b107a25b85382a77c&v=4" />
-         
-        </User>
+       
       </NavMenu>
+        <User src="https://avatars.githubusercontent.com/u/75438046?s=400&u=4ad31515204e1d0d63e7940b107a25b85382a77c&v=4"/>
     </Nav>
   );
 }
@@ -54,16 +52,18 @@ const Logo = styled.img`
   cursor: pointer;
 `;
 const NavMenu = styled.div`
-  align-items: center;
   display: flex;
+  flex: 1;  
+  margin-left: 25px;
+  align-items: center;
+  /* height: 100%;
   flex-flow: row nowrap;
-  height: 100%;
   justify-content: flex-end;
   margin: 0px;
   padding: 0px;
   position: relative;
-  margin-right: auto;
-  margin-left: 25px;
+  margin-right: auto; */
+
   a {
     display: flex;
     align-items: center;
@@ -115,7 +115,7 @@ const NavMenu = styled.div`
 `;
 
 const User = styled.img`
-  height: 100%;
+  height: 48px;
   width: 48px;
   border-radius: 50%;
   cursor: pointer;
