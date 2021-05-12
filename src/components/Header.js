@@ -46,12 +46,12 @@ const Nav = styled.nav`
   background: #090b13;
   display: flex;
   align-items: center;
-  padding:0 63px;
+  padding: 0 63px;
 `;
 const Logo = styled.img`
-height: 80px;
-width:80px;
- cursor: pointer;
+  height: 80px;
+  width: 80px;
+  cursor: pointer;
 `;
 const NavMenu = styled.div`
   align-items: center;
@@ -74,7 +74,7 @@ const NavMenu = styled.div`
       min-width: 20px;
       width: 20px;
       z-index: auto;
-      padding-right:10px
+      padding-right: 10px;
     }
     span {
       color: rgb(249, 249, 249);
@@ -112,4 +112,11 @@ const NavMenu = styled.div`
   /* @media (max-width: 768px) {
     display: none;
   } */
+`;
+
+const User = styled.img`
+  height: 100%;
+  width: 48px;
+  border-radius: 50%;
+  cursor: pointer;
 `;
