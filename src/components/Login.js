@@ -3,9 +3,11 @@ import styled from "styled-components";
 function Login() {
     return (
       <Container>
-        <CTA>
-          <CTALogoOne src="/images/cta-logo-one.svg" />
-        </CTA>
+        <Content>
+          <CTA>
+            <CTALogoOne src="/images/cta-logo-one.svg" />
+          </CTA>
+        </Content>
       </Container>
     );
 }
