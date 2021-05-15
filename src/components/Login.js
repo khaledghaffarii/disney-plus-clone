@@ -2,12 +2,12 @@ import React from 'react'
 import styled from "styled-components";
 function Login() {
     return (
-        <Container>
-            <CTA>
-
-            </CTA>
-        </Container>
-    )
+      <Container>
+        <CTA>
+          <CTALogoOne src="cta-logo-two.png" />
+        </CTA>
+      </Container>
+    );
 }
 
 export default Login
