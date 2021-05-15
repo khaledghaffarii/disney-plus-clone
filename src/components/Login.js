@@ -44,17 +44,9 @@ const CTALogoOne = styled.img`
   display: block;
   width: 100%;
 `;
-
-const Content = styled.div`
-  margin-bottom: 10vw;
+const CTA = styled.div`
+  max-width: 650px;
   width: 100%;
-  position: relative;
-  min-height: 100vh;
-  box-sizing: border-box;
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
-  padding: 80px 40px;
-  height: 100%;
 `;
