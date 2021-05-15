@@ -3,9 +3,9 @@ import styled from "styled-components";
 function Login() {
     return (
         <Container>
-            <Content>
-                
-            </Content>
+            <CTA>
+
+            </CTA>
         </Container>
     )
 }
