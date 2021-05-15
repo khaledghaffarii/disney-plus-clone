@@ -4,7 +4,7 @@ function Login() {
     return (
       <Container>
         <CTA>
-          <CTALogoOne src="cta-logo-two.png" />
+          <CTALogoOne src="/images/cta-logo-one.svg" />
         </CTA>
       </Container>
     );
