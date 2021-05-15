@@ -85,3 +85,10 @@ const SignUp = styled.a`
     background-color: #0483ee;
   }
 `;
+const Description = styled.p`
+  color: hsla(0, 0%, 95.3%, 1);
+  font-size: 11px;
+  margin: 0 0 24px;
+  line-height: 1.5;
+  letter-spacing: 1.5px;
+`;
