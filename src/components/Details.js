@@ -185,6 +185,7 @@ const Description = styled.div`
   line-height: 1.4;
   font-size: 20px;
   padding: 16px 0px;
+  max-width:670px;
   color: rgb(249, 249, 249);
   @media (max-width: 768px) {
     font-size: 14px;
