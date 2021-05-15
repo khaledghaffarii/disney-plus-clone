@@ -6,6 +6,7 @@ function Login() {
         <Content>
           <CTA>
             <CTALogoOne src="/images/cta-logo-one.svg" />
+          <SignUp> GET ALL THREE </SignUp>
           </CTA>
         </Content>
       </Container>
