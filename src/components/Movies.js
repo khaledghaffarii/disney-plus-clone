@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from "styled-components";
-import { selectMovies } from "../features/movie/movieSlice";
-
+import { selectMovies } from "../features/movies/movieSlice";
+import { useSelector } from "react-redux";
 function Movies() {
     return (
       <Container>
