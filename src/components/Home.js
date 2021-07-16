@@ -6,6 +6,7 @@ import Movies from "./Movies";
 import db from "../firebase";
 import { useDispatch} from "react-redux";
 function Home() {
+    const dispatch = useDispatch();
   useEffect(() => {
     db.collection("movies").onSnapshot((snapshot) => {
       
