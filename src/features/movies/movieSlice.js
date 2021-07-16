@@ -7,5 +7,12 @@ const initialState = {
 };
 
 const movieSlice = createSlice({
- 
+  name: "movie",
+  initialState,
+  reducers: {
+    setMovies: (state, action) => {
+      state.movies = action.payload.movies;
+      
+    },
+  },
 });
