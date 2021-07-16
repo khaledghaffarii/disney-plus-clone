@@ -4,7 +4,7 @@ import ImageSlider from "./ImageSlider";
 import Viewers from "./Viewers";
 import Movies from "./Movies";
 import db from "../firebase";
-
+import { useDispatch} from "react-redux";
 function Home() {
   useEffect(() => {
     db.collection("movies").onSnapshot((snapshot) => {
