@@ -2,40 +2,41 @@ import React from 'react'
 import styled from "styled-components";
 import { selectMovies } from "../features/movies/movieSlice";
 import { useSelector } from "react-redux";
-function Movies() {
-   const movies = useSelector(selectMovies);
-    return (
-      <Container>
-        <h4>Recommended for You</h4>
-        <Content>
-          <Wrap>
-            <img src="/images/aladdin.jpeg" />
-          </Wrap>
-          <Wrap>
-            <img src="/images/princesses-disney-jasmine-aladin-i38484.jpg" />
-          </Wrap>
-          <Wrap>
-            <img src="/images/Golden_Fleece.jpg" />
-          </Wrap>
-          <Wrap>
-            <img src="/images/picsou.jpg" />
-          </Wrap>
-          <Wrap>
-            <img src="/images/aladdin.jpeg" />
-          </Wrap>
-          <Wrap>
-            <img src="/images/princesses-disney-jasmine-aladin-i38484.jpg" />
-          </Wrap>
-          <Wrap>
-            <img src="/images/Golden_Fleece.jpg" />
-          </Wrap>
-          <Wrap>
-            <img src="/images/picsou.jpg" />
-          </Wrap>
-        </Content>
-      </Container>
-    );
-}
+const Movies = (props) => {
+  const movies = useSelector(selectMovies);
+  console.table(movies);
+  return (
+    <Container>
+      <h4>Recommended for You</h4>
+      <Content>
+        <Wrap>
+          <img src="/images/aladdin.jpeg" />
+        </Wrap>
+        <Wrap>
+          <img src="/images/princesses-disney-jasmine-aladin-i38484.jpg" />
+        </Wrap>
+        <Wrap>
+          <img src="/images/Golden_Fleece.jpg" />
+        </Wrap>
+        <Wrap>
+          <img src="/images/picsou.jpg" />
+        </Wrap>
+        <Wrap>
+          <img src="/images/aladdin.jpeg" />
+        </Wrap>
+        <Wrap>
+          <img src="/images/princesses-disney-jasmine-aladin-i38484.jpg" />
+        </Wrap>
+        <Wrap>
+          <img src="/images/Golden_Fleece.jpg" />
+        </Wrap>
+        <Wrap>
+          <img src="/images/picsou.jpg" />
+        </Wrap>
+      </Content>
+    </Container>
+  );
+};
 
 export default Movies
 const Container = styled.div`
