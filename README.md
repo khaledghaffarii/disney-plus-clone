@@ -1,6 +1,6 @@
 # Disney-plus-Clone with ReactJS      
 
-![ReactJS Resume Website Disney-plus](Netflix.png?raw=true "ReactJS Resume Website Template")
+![ReactJS Resume Website Disney-plus](disney.jpeg?raw=true "ReactJS Resume Website Template")
 
 ## <a href="https://disneyplus-clone-f8077.web.app/" target="_blank">LIVE DEMO</a>
 
